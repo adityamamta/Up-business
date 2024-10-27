@@ -1,0 +1,259 @@
+
+
+
+@media (max-width: 991px) {
+    html {
+        font-size: 60%;
+    }
+
+    .textnlinks {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .business-img {
+        width: 70%;
+    }
+
+    .winimg {
+        display: none;
+    }
+
+    .top-review-text {
+        width: 100%;
+    }
+
+    .swiper {
+        margin-top: 0;
+        margin-bottom: 10rem;
+    }
+
+    .service-container {
+        flex-direction: column;
+        row-gap: 6rem;
+    }
+
+    .service2 .service-text, .service4 .service-text {
+        order: 1;
+    }
+
+    .service-container .service-text {
+        width: 90%;
+    }
+
+    .service-img-container {
+        width: 60%;
+        margin-inline: auto;
+    }
+
+    .service2 .service-img-container, .service4 .service-img-container {
+        order: 2;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        row-gap: 4rem;
+        margin-bottom: 10rem;
+    }
+
+    .hero-text-container {
+        width: 90%;
+    }
+
+    .hero-text-container .global-para {
+        margin-right: 10%;
+    }
+
+    .hero-img-container {
+        width: 80%;
+        margin-inline: auto;
+        position: relative;
+    }
+
+    .hero-img-container img {
+        object-fit: contain;
+        object-position: center;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .navbar-container {
+        position: relative;
+        z-index: 999;
+        background-color: white;
+    }
+
+    .navbar-links {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 60%;
+        transform: translateX(calc(100% + 2.8rem));
+        height: fit-content;
+        background-color: white;
+        z-index: 9;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-bottom: 12rem;
+        gap: 0;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform .3s ease;
+    }
+
+    .open-nav {
+        transform: translateX(2.8rem) !important;
+    }
+
+    .navbar-links li {
+        width: 100%;
+        height: fit-content;
+        text-align: start;
+    }
+
+    .navbar-links li:hover {
+        background-color: #efefef;
+    }
+
+    .navbar-links li a {
+        line-height: 6rem;
+        display: block;
+        width: 100%;
+        padding-left: 4rem;
+    }
+
+    .navbar-links .nav-btn {
+        margin-top: 4rem;
+        margin-left: 0;
+        padding-inline: 4rem;
+        transition: padding-inline .3s ease;
+    }
+
+    .navbar-links .nav-btn:hover {
+        padding-inline: 4.4rem;
+    }
+
+    .menu-btn {
+        display: inline-block;
+    }
+
+
+    
+}
+
+@media (max-width: 768px) {
+    
+    .textnlinks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .socials {
+        grid-column: 1 / 2;
+    }
+
+    .about-us, .location, .contact-us {
+        padding-right: 2rem;
+    }
+
+    .business-img {
+        width: 90%;
+    }
+
+    .top-review {
+        padding-block: 4rem;
+        padding-inline: 4rem;
+        flex-direction: column;
+    }
+
+    .main-service-container .global-para {
+        margin-inline: 0;
+    }
+
+    .service-container .service-text {
+        width: 100%;
+    }
+
+    .service-img-container {
+        width: 85%;
+    }
+
+    .service-text .global-para {
+        margin-right: 0;
+    }
+
+    .service-container {
+        padding-block: 6rem;
+    }
+
+    .hero-text-container {
+        width: 100%;
+    }
+
+    .hero-text-container .global-para {
+        margin-right: 0;
+    }
+
+    .hero-img-container {
+        width: 100%;
+    }
+
+    .navbar-links {
+        width: 80%;
+    }
+    
+}
+
+@media (max-width: 535px) {
+    .hero-text-container h1 {
+        font-size: 6rem;
+        margin-top: 6rem;
+    }
+
+    .navbar-links {
+        width: 95%;
+    }
+}
+
+
+
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+    .top-review {
+        padding-inline: 2rem;
+        padding-block: 4rem;
+    }
+
+    .textnlinks {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .socials .small-text {
+        margin-right: 0;
+    }
+
+    .business-img {
+        width: 100%;
+    }
+
+    .top-review {
+        padding-inline: 2rem;
+    }
+
+    .two-circle {
+        right: 0;
+    }
+
+    .copyright {
+        padding-block-start: 0;
+    }
+
+    .main-service-container .global-para {
+        margin-inline: 0;
+    }
+
+    .service-img-container {
+        width: 100%;
+    }
+}
+
+
