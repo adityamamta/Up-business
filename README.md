@@ -1,5 +1,5 @@
 # Up Business
-## [Visit the live site here](https://adityamamta.github.io/Up-business/)
+## <a href="https://adityamamta.github.io/Up-business/" target="_blank">Visit the live site</a>
 ### About Up Business
 
 - One-page, Responsive Business Portfolio Website
