@@ -9,3 +9,5 @@
 - Built with HTML, CSS, and JavaScript for smooth and dynamic user interactions.
 
 💼 Contact me on linkedin. [Linkedin](https://www.linkedin.com/in/adityamamta/)
+
+![preview img](img/up-business-mockup.png)
