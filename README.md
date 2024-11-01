@@ -1,5 +1,5 @@
 # Up Business
-## [![Click Me!](https://img.shields.io/badge/Click_Me!-blue?style=for-the-badge)](https://adityamamta.github.io/Up-business/)
+## <a href="https://adityamamta.github.io/Up-business/"><img src="img/readme-btn.png" alt="Click to view live website" height="120"></a>
 ### About Up Business
 
 - One-page, Responsive Business Portfolio Website
